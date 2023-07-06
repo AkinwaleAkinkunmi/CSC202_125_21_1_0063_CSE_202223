@@ -1,10 +1,10 @@
 # Debugging
 # Describe Problem
-def my_function():
-  for i in range(1, 21):
-    if i == 20:
-      print("You got it")
-my_function()
+# def my_function():
+#   for i in range(1, 21):
+#     if i == 20:
+#       print("You got it")
+# my_function()
 
 # # Reproduce the Bug
 # from random import randint
@@ -32,7 +32,7 @@ my_function()
 # total_words = pages * word_per_page
 # print(f"pages = {pages}")
 # print(f"word_per_page = {word_per_page}")
-# print(total_words)
+# print(total_words) 
 
 # #Use a Debugger
 # def mutate(a_list):
@@ -41,5 +41,6 @@ my_function()
 #         new_item = item * 2
 #         b_list.append(new_item)
 #     print(b_list)
-
+ 
 # mutate([1, 2, 3, 5, 8, 13])
+
