@@ -47,9 +47,9 @@ def main_in_room(): #Oyesiji Titilope
 
     # Check if sound level exceeds hearing threshold or distance threshold
     if sound_level > HUMAN_HEARING_THRESHOLD:
-        print(f"The sound level reaching you in the {material} room is {sound_level}. You are not hearing anything.")
+        print(f"The sound level reaching you in the {material} room is {sound_level}db. You are not hearing anything.")
     else:
-        print(f"The sound level reaching you in the {material} room is {sound_level}. You are hearing the noise.")
+        print(f"The sound level reaching you in the {material} room is {sound_level}db. You are hearing the noise.")
 
 def main_outside():
     """Simulates the program if the user is outside the classroom"""
@@ -59,9 +59,9 @@ def main_outside():
     sound_level = math.ceil(simulate_sound_level_outside(lawnmower_power, distance))
 
     if sound_level > HUMAN_HEARING_THRESHOLD:
-        print(f"The sound level at {distance}m from the lawnmower is {sound_level}. You are not hearing anything.")
+        print(f"The sound level at {distance}m from the lawnmower is {sound_level}db. You are not hearing anything.")
     else:
-        print(f"The sound level at {distance}m from the lawnmower is {sound_level}. You are hearing the noise.")
+        print(f"The sound level at {distance}m from the lawnmower is {sound_level}db. You are hearing the noise.")
 while simulating:
     position = input("Are you inside or outside the classroom? (in/out)  ").lower()
 
