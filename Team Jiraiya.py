@@ -14,8 +14,8 @@ def calculate_sound_intensity(power, distance):
     """Takes in the power and distance and returns the sound intensity in Watts per square meter"""
     return power / (4 * math.pi * distance**2)
 
-# Function to calculate sound level in decibels
-def calculate_sound_level(intensity):
+# Function to calculate sound level in decibels 
+def calculate_sound_level(intensity):# Makanjuola Thomas Oluwadamilare
     """Takes the intensity of the sound in watts per square meter and converts it to Decibels"""
     return 10 * math.log10(intensity / 10**-12)
 
