@@ -2,7 +2,6 @@
 from tkinter import *
 from tkinter import messagebox
 
-#password generator
 from random import choice, randint, shuffle
 
 def generate_password():
