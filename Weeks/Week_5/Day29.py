@@ -1,4 +1,4 @@
-#password
+#password generator
 from tkinter import *
 from tkinter import messagebox
 
